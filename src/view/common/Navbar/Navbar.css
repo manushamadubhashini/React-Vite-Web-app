@@ -16,7 +16,13 @@ li{
     display: inline-block;
     padding-right: 35px;
 }
-
+li > a{
+    color: white;
+    text-decoration: none;
+}
+li a:hover{
+    color: black;
+}
 .sign-in{
     width: 100px;
     height: 45px;
@@ -24,6 +30,11 @@ li{
     border-radius: 25px;
 
 
+}
+.sign-in:hover{
+    background-color: lightpink;
+    color: black;
+    border: 1px solid black;
 }
 .logo-img{
     width: 300px;
