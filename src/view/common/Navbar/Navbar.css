@@ -36,6 +36,9 @@ li a:hover{
     color: black;
     border: 1px solid black;
 }
+.sign-in a{
+    color: white;
+}
 .logo-img{
     width: 300px;
 }

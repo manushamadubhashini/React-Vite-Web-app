@@ -13,7 +13,7 @@ export function Navbar() {
                     <li><Link to = "/about">About</Link></li>
                     <li><Link to= "/contact/">Contact</Link></li>
                 </ul>
-                <button className="sign-in">Sign In</button>
+                <button className="sign-in"><Link to= "/login">Sign In</Link></button>
             </div>
         </div>
     );
